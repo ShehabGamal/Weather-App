@@ -34,7 +34,7 @@ function Form(props) {
         id="Input1"
         placeholder="Type Country"
       />
-      <ExBasicInput type="submit" value="Get Weather!!" />
+      <ExBasicInput type="submit" value="Get Weather!" />
     </form>
   );
 }
