@@ -3,7 +3,7 @@ import Form from "./Components/Form.js";
 import Display from "./Components/Display.js";
 import styled from "styled-components";
 
-const Wrapper = styled.div`
+const Wrapper1 = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,13 +42,13 @@ function App(props) {
     document.getElementById("Input1").value = "";
   };
   return (
-    <Wrapper>
+    <Wrapper1>
       <Container>
         <BasicHeader>Weather App</BasicHeader>
         <Form fetchData={fetchData} />
         <Display info={info} />
       </Container>
-    </Wrapper>
+    </Wrapper1>
   );
 }
 
