@@ -33,7 +33,7 @@ function App(props) {
     e.preventDefault();
     const City = e.target.elements.city.value;
     const Country = e.target.elements.country.value;
-    const API_KEY = `http://api.openweathermap.org/data/2.5/weather?q=${City},${Country}&APPID=a474f8baa40ba792e93aae00f5aaa640`;
+    const API_KEY = `https://api.openweathermap.org/data/2.5/weather?q=${City},${Country}&APPID=a474f8baa40ba792e93aae00f5aaa640`;
     fetch(API_KEY)
       .then((res) => res.json())
       .then((data) => setInfo(data))
