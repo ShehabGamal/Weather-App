@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const BasicDisplay = styled.p`
-  font-size: 15px;
+  font-size: 1.486vh;
   font-family: sans-serif;
   color: ${(props) => props.theme.SecondaryColor};
   font-weight: bold;

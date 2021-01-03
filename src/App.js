@@ -16,13 +16,13 @@ const Container = styled.div`
   background: ${(props) => props.theme.FrontColor};
   height: 70vh;
   margin: 20% 20% 20% 20%;
-  padding: 30px;
-  width: 20%;
+  padding: 2.973vh;
+  width: 80%;
 `;
 const BasicHeader = styled.h2`
   color: ${(props) => props.theme.ExtraColor};
-  font-size: 50px;
-  padding: 30px;
+  font-size: 4.955vh;
+  padding: 2.973vh;
   margin: 0 auto;
   text-align: center;
 `;

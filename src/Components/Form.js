@@ -10,19 +10,22 @@ const BasicInput = styled.input`
   }
   ::placeholder {
     color: ${(props) => props.theme.SecondaryColor};
-    font-size: 25px;
+    font-size: 2.477vh;
   }
-  padding: 10px;
+  padding: 0.991vh;
   text-align: center;
-  font-size: 25px;
+  font-size: 2.477vh;
   margin: 5% auto;
-  letter-spacing: 2px;
+  letter-spacing: 0.198vh;
 `;
 const ExBasicInput = styled(BasicInput)`
   width: 50%;
   background: ${(props) => props.theme.BackColor};
   color: ${(props) => props.theme.FrontColor};
-  border-radius: 10px;
+  border-radius: 0.991vh;
+  @media (min-width: 280px) and (max-width: 1024px) {
+    width: 80%;
+  }
 `;
 function Form(props) {
   return (
