@@ -17,7 +17,10 @@ const Container = styled.div`
   height: 70vh;
   margin: 20% 20% 20% 20%;
   padding: 2.973vh;
-  width: 80%;
+  width: 20%;
+  @media (min-width: 280px) and (max-width: 1024px) {
+    width: 60%;
+  }
 `;
 const BasicHeader = styled.h2`
   color: ${(props) => props.theme.ExtraColor};
