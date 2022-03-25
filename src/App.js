@@ -66,6 +66,7 @@ function App() {
    }
    useEffect(() => {
     if(RangeID){getWeatherIcon(RangeID)}
+    console.log(RangeID)
   });
     const fetchData = (e) => {
       e.preventDefault();
